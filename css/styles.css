@@ -5,11 +5,6 @@ YOUR STYLES
 /* Layout */
 * { box-sizing: border-box; }
 
-section {
-  /* Fallback: Floated in No JS */
-  padding: 1em;
-}
-
 /* clearfix */
 section:after {
   content: '';
@@ -17,18 +12,41 @@ section:after {
   clear: both;
 }
 
-img {
+.me {
+    display: block;
+    justify-content: center;
+    margin:  0 auto;
+    padding-bottom: 2em;
+}
+
+.about {
     display: block;
     margin: 0 auto;
 }
-article {
+
+h8 {
+    background: rgba(0,0,0,.5);
+    color: aliceblue;
+    padding: .5em;
+    display: block;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
     margin: 0 auto;
-    padding: 10px;
+    
 }
 
-li {
+.bio {
+    display: block;
     text-align: center;
-    text-decoration: none;
+    font-size: 2em;
+}
+
+article {
+    background: rgba(225,225,225,.5);
+    display: block;
+    margin: 0 auto;
+    padding: 2em;
 }
 
 h1 {
@@ -43,13 +61,25 @@ header h2 {
 }
 
 header p {
-    font-size: 1.3em;
+    font-size: 2em;
     text-align: center;
 }
 
 h3 {
-    display: block;
     text-align: center;
+    display: block;
+    font-size: 2em;
+}
+
+.links{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+li img {
+    width: 200px;
 }
 
 /********************
