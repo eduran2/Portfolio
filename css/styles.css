@@ -7,7 +7,6 @@ YOUR STYLES
 
 section {
   /* Fallback: Floated in No JS */
-  float: left;
   padding: 1em;
 }
 
@@ -18,9 +17,18 @@ section:after {
   clear: both;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
 article {
     margin: 0 auto;
     padding: 10px;
+}
+
+li {
+    text-align: center;
+    text-decoration: none;
 }
 
 h1 {
@@ -29,26 +37,19 @@ h1 {
     text-transform: uppercase;
 }
 
-
-/* Masonry Styling */
-section {
-  background: rgba(183, 182, 182, 0.75);
-  border: 1px solid black;
-  /* vertical space between */
-  margin-bottom: 10px;
-  width: 200px;
+header h2 {
+    font-size: 3em;
+    text-align: center;
 }
 
-.tall {
-  height: 600px;
+header p {
+    font-size: 1.3em;
+    text-align: center;
 }
 
-.med {
-  height: 400px;
-}
-
-.short {
-  height: 200px;
+h3 {
+    display: block;
+    text-align: center;
 }
 
 /********************
@@ -63,10 +64,7 @@ MEDIA QUERIES
   and (min-width: 80em) { 
   
   /* Temporary Styling. Add your own. */
-  body {
-       background: blue;
-  }
-
+  
 }
 
 /* Tablet */
@@ -77,9 +75,6 @@ MEDIA QUERIES
   and (min-width: 48em)  {
   
   /* Temporary Styling. Add your own. */
-  body {
-       background: green;
-  }
 
 }
 
@@ -91,8 +86,8 @@ MEDIA QUERIES
   and (min-width: 20em) { 
   
   /* Temporary Styling. Add your own. */
-  body {
-       background: red;
-  }
-  
+
 }
+
+
+
