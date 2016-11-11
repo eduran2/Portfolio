@@ -136,6 +136,10 @@ h7 {
     margin: 0 auto;
 }
 
+.fotorama__wrap {
+    padding: 2em;
+    margin: 0 auto;
+}
 /********************
 MEDIA QUERIES
 *******************/
