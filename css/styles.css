@@ -24,9 +24,10 @@ section:after {
     padding-bottom: 2em;
 }
 
-.about {
-    font-family: 'Raleway', sans-serif;
+p {
+    font-size: 2em;
     padding: 1em;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -42,12 +43,6 @@ h8 {
     text-align: center;
     margin: 0 auto;
     
-}
-
-.bio {
-    display: block;
-    text-align: center;
-    font-size: 2em;
 }
 
 article {
@@ -71,18 +66,9 @@ header h2 {
 }
 
 header p {
+    font-family: "Raleway", sans-serif;
     font-size: 2em;
     text-align: center;
-}
-
-h3 {
-    font-family: 'Montserrat',sans-serif;
-    background: rgba(0,0,0,.5);
-    color: aliceblue;
-    padding: .5em;
-    text-align: center;
-    display: block;
-    font-size: 2em;
 }
 
 li img {
@@ -94,6 +80,62 @@ li img {
 ul {
     list-style-type: none;
 }
+
+h3 {
+    font-family: 'Montserrat',sans-serif;
+    background: rgba(0,0,0,.5);
+    color: aliceblue;
+    padding: .5em;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h4 {
+    font-family: 'Montserrat',sans-serif;
+    background: rgba(0,0,0,.5);
+    color: aliceblue;
+    padding: .5em;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h5 {
+    font-family: 'Montserrat',sans-serif;
+    background: rgba(0,0,0,.5);
+    color: aliceblue;
+    padding: .5em;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h6 {
+    font-family: 'Montserrat',sans-serif;
+    background: rgba(0,0,0,.5);
+    color: aliceblue;
+    padding: .5em;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h7 {
+    font-family: 'Montserrat',sans-serif;
+    background: rgba(0,0,0,.5);
+    color: aliceblue;
+    padding: .5em;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /********************
 MEDIA QUERIES
 *******************/
