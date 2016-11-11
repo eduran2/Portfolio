@@ -2,6 +2,11 @@
 YOUR STYLES
 *******************/
 
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Raleway');
+
+
 /* Layout */
 * { box-sizing: border-box; }
 
@@ -20,17 +25,20 @@ section:after {
 }
 
 .about {
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+    text-align: center;
     display: block;
     margin: 0 auto;
 }
 
 h8 {
+    font-family: 'Montserrat',sans-serif;
     background: rgba(0,0,0,.5);
     color: aliceblue;
     padding: .5em;
     display: block;
     font-size: 2em;
-    text-transform: uppercase;
     text-align: center;
     margin: 0 auto;
     
@@ -50,12 +58,14 @@ article {
 }
 
 h1 {
+    font-family: 'Montserrat',sans-serif;
     font-size: 6em;
     text-align: center;
     text-transform: uppercase;
 }
 
 header h2 {
+    font-family: 'Montserrat',sans-serif;
     font-size: 3em;
     text-align: center;
 }
@@ -66,22 +76,24 @@ header p {
 }
 
 h3 {
+    font-family: 'Montserrat',sans-serif;
+    background: rgba(0,0,0,.5);
+    color: aliceblue;
+    padding: .5em;
     text-align: center;
     display: block;
     font-size: 2em;
 }
 
-.links{
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    list-style-type: none;
-}
-
 li img {
     width: 200px;
+    margin: 0 auto;
+    display: block;
 }
 
+ul {
+    list-style-type: none;
+}
 /********************
 MEDIA QUERIES
 *******************/
