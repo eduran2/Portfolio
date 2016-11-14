@@ -26,7 +26,7 @@ section:after {
 
 p {
     font-size: 2em;
-    padding: 1em;
+    padding: 2em;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     display: block;
@@ -98,7 +98,7 @@ h4 {
     color: aliceblue;
     padding: .5em;
     display: block;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     margin: 0 auto;
 }
@@ -109,7 +109,7 @@ h5 {
     color: aliceblue;
     padding: .5em;
     display: block;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     margin: 0 auto;
 }
@@ -120,7 +120,7 @@ h6 {
     color: aliceblue;
     padding: .5em;
     display: block;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     margin: 0 auto;
 }
@@ -131,14 +131,45 @@ h7 {
     color: aliceblue;
     padding: .5em;
     display: block;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     margin: 0 auto;
 }
 
+.fotorama__stage__frame{
+    margin: 0 auto;
+    
+}
+
 .fotorama__wrap {
+    background: black;
     padding: 2em;
     margin: 0 auto;
+}
+
+.fotorama__thumb {
+    background: white;
+    
+}
+
+.aftershock {
+    padding: 5em;
+}
+
+.shockwave {
+    padding: 5em;
+}
+
+.poached {
+    padding 5em;
+}
+
+.symposium {
+    padding: 5em;
+}
+
+.gentleman {
+    padding: 5em;
 }
 /********************
 MEDIA QUERIES
