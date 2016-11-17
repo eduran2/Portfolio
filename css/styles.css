@@ -31,6 +31,7 @@ p {
     text-align: center;
     display: block;
     margin: 0 auto;
+    color: black;
 }
 
 h8 {
@@ -57,12 +58,14 @@ h1 {
     font-size: 6em;
     text-align: center;
     text-transform: uppercase;
+    color: bla;
 }
 
 header h2 {
     font-family: 'Montserrat',sans-serif;
     font-size: 3em;
     text-align: center;
+    color: black;
 }
 
 header p {
@@ -171,6 +174,7 @@ h7 {
 .gentleman {
     padding: 5em;
 }
+
 /********************
 MEDIA QUERIES
 *******************/

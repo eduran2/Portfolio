@@ -1,5 +1,5 @@
 // Intialize Backstretch
-$.backstretch('/Portfolio/img/bg.jpg');
+$.backstretch('img/bg.jpg');
 
 $(document).ready(function() {
         $(".fancybox").fancybox();
